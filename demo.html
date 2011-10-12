@@ -9,6 +9,7 @@
       10px 20px; }
       h1 { background: #343434; display: block; padding: 5px 10px; }
       h1:hover { cursor: pointer }
+      #einstein p { display: none }
     </style>
 
     <script type="text/javascript">
@@ -19,6 +20,10 @@
         $("#ring p").collapsible({
           trigger: "#ring h1",
           duration: 1000
+        });
+        $("#einstein p").collapsible({
+          trigger: "#einstein h1",
+          expanded: false
         });
       });
     </script>
@@ -35,6 +40,12 @@
     <p>
       One Ring to rule them all, One Ring to find them,
 One Ring to bring them all and in the darkness bind them.
+    </p>
+  </div>
+  <div id="einstein">
+    <h1>Albert Einstein</h1>
+    <p>
+      Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction. 
     </p>
   </div>
 </body>
