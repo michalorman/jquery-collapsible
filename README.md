@@ -16,7 +16,7 @@ See `demo.html`.
 
 * `trigger` - selector to collapse trigger (**required**).
 * `duration` - animation duration in milliseconds (default: 200ms).
-* `collapseClass` - class to be set on trigger when collapsed (default: "collapsed").
+* `collapsedClass` - class to be set on trigger when collapsed (default: "collapsed").
 
 ## License
 
